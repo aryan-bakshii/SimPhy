@@ -3,6 +3,12 @@ var y = document.getElementById("slidecontainer-2");
 x.style.display = "none"
 y.style.display = "none"
 
+window.addEventListener('load', function () { // NOT `DOMContentLoaded`
+    var draggable = new PlainDraggable(document.getElementById('sliders'));
+    draggable.containment = { left: 0, top: 0, right: '100%', height: '100%' };
+});
+
+
 function magnify() {
     var x = document.getElementById("slidecontainer-1");
     var y = document.getElementById("slidecontainer-2");

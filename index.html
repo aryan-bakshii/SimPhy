@@ -12,6 +12,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="index.css">
+    <script src="anseki-plain-draggable-3670507/plain-draggable.min.js"></script>
 </head>
 
 <body>
@@ -124,16 +125,7 @@
                         <div class="item1"><img src="" alt=""></div>
                     </div>
                 </div>
-                <div class="tool-geometry">
-                    <div class="item1"><svg src="./Geometry/zgeometry-free-point.svg" alt=""></div>
-                    <div class="item1"><img src="./Geometry/zgeometry-line-2-points.svg" alt=""></div>
-                    <div class="item1"><img src="./Geometry/zgeometry-vector-2-points.svg" alt=""></div>
-                    <div class="item1"><img src="./Geometry/zgeometry-circle-2-points.svg" alt=""></div>
-                    <div class="item1"><img src="./Geometry/zgeometry-parabola-2-points.svg" alt=""></div>
-                    <div class="item1"><img src="./Geometry/zgeometry-create-point-locus.svg" alt=""></div>
-                    <div class="item1"><img src="./Geometry/zgeometry-insert-shape-info.svg" alt=""></div>
-                    <div class="item1"><img src="./Geometry/zgeometry-insert-explicit-function.svg" alt=""></div>
-                </div>
+
             </div>
         </div>
 
@@ -143,7 +135,7 @@
 
         <div class="lower-toolbar">
 
-            <div class="upper">
+            <div class="upper" id="sliders">
                 <div id="slidecontainer-1">
                     <p id="magnify-text">Magnification: </p>
                     <input type="range" min="0.01" max="10" value="1" class="slider1" id="myRange1">
