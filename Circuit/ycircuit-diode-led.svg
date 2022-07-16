@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   style="enable-background:new 0 0 512 512;"
+   xml:space="preserve"
+   sodipodi:docname="ycircuit-diode-led.svg.2022_02_15_12_47_34.0.svg"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs876" /><sodipodi:namedview
+   id="namedview874"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="1.2080904"
+   inkscape:cx="296.74932"
+   inkscape:cy="294.67993"
+   inkscape:window-width="1440"
+   inkscape:window-height="872"
+   inkscape:window-x="0"
+   inkscape:window-y="28"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="g827" />
+<g
+   id="g829"
+   style="fill:#f26522;stroke:#f26522;stroke-width:13.73869948"
+   transform="matrix(1.1004033,0,0,1.1004033,-22.8022,9.8642327)">
+	<g
+   id="g827">
+		<g
+   id="path971"
+   transform="translate(5.89816,-4.4686)"
+   style="stroke-width:31.80652039;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;stroke:#40b6e0;stroke-opacity:1"><path
+     style="fill:none;stroke:#40b6e0;stroke-width:31.80652039;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 385.55157,269.35965 10e-6,-139.16192 c 0,0 -16.87655,-115.563902 -128.79935,-116.55855 -111.9228,-0.994648 -128.46215,112.04518 -128.46215,112.04518 l -0.5443,189.74752 c 0,0 -33.737934,-0.11935 -34.058126,20.12371 -0.320191,20.24306 19.557886,24.07125 19.557886,24.07125 l 285.84611,1.50445 c 0,0 19.5253,-1.91543 19.5579,-24.82348 0.0273,-19.17036 -21.06235,-20.31012 -21.06235,-20.31012 h -52.65586 -175.2688"
+     id="path3615"
+     sodipodi:nodetypes="ccscczcczccc" /></g>
+	<path
+   style="fill:none;stroke:#f26522;stroke-width:31.80652039;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+   d="m 326.94894,307.72265 v -63.06039 h -49.5919 l 37.61133,-47.39028"
+   id="path1148"
+   sodipodi:nodetypes="cccc" /><path
+   style="fill:none;stroke:#f26522;stroke-width:31.80652039;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+   d="M 187.31418,305.77903 V 198.94894 l 80.69242,0 -37.28761,46.46555"
+   id="path1552"
+   sodipodi:nodetypes="cccc" /></g>
+</g>
+<g
+   id="g835"
+   style="fill:#40b6e0;fill-opacity:1;stroke-width:15.1181;stroke-miterlimit:4;stroke-dasharray:none"
+   transform="matrix(1.5398977,0,0,1,-104.80148,0)">
+	<g
+   id="g833"
+   style="fill:#40b6e0;fill-opacity:1;stroke-width:15.1181;stroke-miterlimit:4;stroke-dasharray:none">
+		<path
+   d="m 186.182,395.636 c -6.982,0 -11.636,4.655 -11.636,11.636 v 93.091 c 0,6.982 4.655,11.636 11.636,11.636 6.981,0 11.636,-4.655 11.636,-11.636 v -93.091 c 0,-6.981 -4.654,-11.636 -11.636,-11.636 z"
+   id="path968"
+   style="fill:#40b6e0;fill-opacity:1;stroke-width:15.1181;stroke-miterlimit:4;stroke-dasharray:none" />
+	</g>
+</g><g
+   id="g835-4"
+   style="fill:#40b6e0;fill-opacity:1;stroke-width:15.1181;stroke-miterlimit:4;stroke-dasharray:none"
+   transform="matrix(1.5398977,0,0,1,-112.87318,-3.5200755)"><g
+     id="g833-1"
+     style="fill:#40b6e0;fill-opacity:1;stroke-width:15.1181;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(105.22372,4.4832579)"><path
+       d="m 186.182,395.636 c -6.982,0 -11.636,4.655 -11.636,11.636 v 93.091 c 0,6.982 4.655,11.636 11.636,11.636 6.981,0 11.636,-4.655 11.636,-11.636 v -93.091 c 0,-6.981 -4.654,-11.636 -11.636,-11.636 z"
+       id="path968-3"
+       style="fill:#40b6e0;fill-opacity:1;stroke-width:15.1181;stroke-miterlimit:4;stroke-dasharray:none" /></g></g>
+
+<g
+   id="g843">
+</g>
+<g
+   id="g845">
+</g>
+<g
+   id="g847">
+</g>
+<g
+   id="g849">
+</g>
+<g
+   id="g851">
+</g>
+<g
+   id="g853">
+</g>
+<g
+   id="g855">
+</g>
+<g
+   id="g857">
+</g>
+<g
+   id="g859">
+</g>
+<g
+   id="g861">
+</g>
+<g
+   id="g863">
+</g>
+<g
+   id="g865">
+</g>
+<g
+   id="g867">
+</g>
+<g
+   id="g869">
+</g>
+<g
+   id="g871">
+</g>
+</svg>
