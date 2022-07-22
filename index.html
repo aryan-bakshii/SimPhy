@@ -22,110 +22,90 @@
     <div class="root">
         <div class="top-toolbar">
             <div class="top-upper-toolbar">
-                <div class="first">
-                    <div class="item1"><img src="" alt=""></div>
-                    <div class="item1"><img src="" alt=""></div>
-                    <div class="item1"><img src="" alt=""></div>
-                </div>
-                <div class="second">
-                    <div class="item1"><img src="" alt=""></div>
-                    <div class="item1"><img src="" alt=""></div>
-                    <div class="item1"><img src="" alt=""></div>
-                    <div class="item1"><img src="" alt=""></div>
-                </div>
-                <div class="third">
-                    <div class="item1"><img src="" alt=""></div>
-                    <div class="item1"><img src="" alt=""></div>
-                    <div class="item1"><img src="" alt=""></div>
-                    <div class="item1"><img src="" alt=""></div>
-                </div>
-                <div class="fourth">
-                    <div class="item1"><img src="" alt=""></div>
-                    <div class="item1"><img src="" alt=""></div>
-                    <div class="item1"><img src="" alt=""></div>
-                </div>
-                <div class="fifth">
-                    <div class="item1"><img src="" alt=""></div>
-                    <div class="item1"><img src="" alt=""></div>
-                    <div class="item1"><img src="" alt=""></div>
-                    <div class="item1"><img src="" alt=""></div>
-                </div>
+                <div class="item1"><img src="./Geometry/zgeometry-angle-bisector-of-2-lines.svg" alt=""></div>
+                <div class="item1"><img src="./Geometry/zgeometry-arc-3-points.svg" alt=""></div>
+                <div class="item1"><img src="./Geometry/zgeometry-arc-center-2-points.svg" alt=""></div>
+                <div class="vertical-line"></div>
+                <div class="item1" onclick=geometry()><img src="./Geometry/zgeometry-circle-2-points.svg" alt=""></div>
+                <div class="item1" onclick=optics()><img src="./Geometry/zgeometry-circle-3-points.svg" alt=""></div>
+                <div class="item1" onclick=rigidbody()><img src="./Geometry/zgeometry-circle-center-radius.svg" alt=""></div>
+                <div class="item1" onclick=circuit()><img src="./Geometry/zgeometry-circle-diameter.svg" alt=""></div>
+                <div class="vertical-line"></div>
+                <div class="item1"><img src="./Geometry/zgeometry-common-tangents-to-2-conics.svg" alt=""></div>
+                <div class="item1"><img src="./Geometry/zgeometry-conic-from-cartesian-equation.svg" alt=""></div>
+                <div class="item1"><img src="./Geometry/zgeometry-conic-through-5-points.svg" alt=""></div>
+                <div class="item1"><img src="./Geometry/zgeometry-conic-with-directrix-focus-and-e.svg" alt=""></div>
+                <div class="item1"><img src="./Geometry/zgeometry-create-arbitrary-shape.svg" alt=""></div>
+                <div class="vertical-line"></div>
+                <div class="item1"><img src="./Geometry/zgeometry-create-cubic-bezier.svg" alt=""></div>
+                <div class="item1"><img src="./Geometry/zgeometry-create-parametric-curve.svg" alt=""></div>
+                <div class="item1"><img src="./Geometry/zgeometry-angle-bisector-of-2-lines.svg" alt=""></div>
+                <div class="item1"><img src="./Geometry/zgeometry-arc-3-points.svg" alt=""></div>
+                <div class="item1"><img src="./Geometry/zgeometry-circle-2-points.svg" alt=""></div>
+                <div class="item1"><img src="./Geometry/zgeometry-circle-diameter.svg" alt=""></div>
             </div>
             <div class="top-lower-toolbar">
-                <div class="tool-rigidbody">
-                    <div class="first">
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                    </div>
-                    <div class="first">
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                    </div>
-                    <div class="third">
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                    </div>
-                    <div class="fourth">
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                    </div>
+                <div class="tool-rigidbody" id="rigidbody" style="display: none">
+                    <div class="item2"><img src="" alt=""></div>
+                    <div class="item2"><img src="" alt=""></div>
+                    <div class="item2"><img src="" alt=""></div>
+                    <div class="item2"><img src="" alt=""></div>
+                    <div class="item2"><img src="" alt=""></div>
+                    <div class="item2"><img src="" alt=""></div>
+                    <div class="item2"><img src="" alt=""></div>
+                    <div class="item2"><img src="" alt=""></div>
+                    <div class="item2"><img src="" alt=""></div>
+                    <div class="item2"><img src="" alt=""></div>
+                    <div class="item2"><img src="" alt=""></div>
+                    <div class="item2"><img src="" alt=""></div>
+                    <div class="item2"><img src="" alt=""></div>
+                    <div class="item2"><img src="" alt=""></div>
+                    <div class="item2"><img src="" alt=""></div>
+                    <div class="item2"><img src="" alt=""></div>
                 </div>
-                <div class="tool-circuit">
-                    <div class="first">
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                    </div>
-                    <div class="second">
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                    </div>
-                    <div class="third">
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                    </div>
-                    <div class="fourth">
-                        <div class="item1"><img src="" alt=""></div>
-                    </div>
-                    <div class="fifth">
-                        <div class="item1"><img src="" alt=""></div>
-                    </div>
-                    <div class="sixth">
-                        <div class="item1"><img src="" alt=""></div>
-                    </div>
+                <div class="tool-circuit" id="circuit" style="display: none">
+                    <div class="item1"><img src="./Circuit/ycircuit-ac-source.svg" alt=""></div>
+                    <div class="item1"><img src="./Circuit/ycircuit-ammeter.svg" alt=""></div>
+                    <div class="item1"><img src="./Circuit/ycircuit-boolean.svg" alt=""></div>
+                    <div class="vertical-line"></div>
+                    <div class="item1"><img src="./Circuit/ycircuit-bulb.svg" alt=""></div>
+                    <div class="item1"><img src="./Circuit/ycircuit-capacitor.svg" alt=""></div>
+                    <div class="item1"><img src="./Circuit/ycircuit-current-source.svg" alt=""></div>
+                    <div class="item1"><img src="./Circuit/ycircuit-dc-source.svg" alt=""></div>
+                    <div class="item1"><img src="./Circuit/ycircuit-diode-led.svg" alt=""></div>
+                    <div class="vertical-line"></div>
+                    <div class="item1"><img src="./Circuit/ycircuit-diode-zener.svg" alt=""></div>
+                    <div class="item1"><img src="./Circuit/ycircuit-diode.svg" alt=""></div>
+                    <div class="item1"><img src="./Circuit/ycircuit-galvanometer.svg" alt=""></div>
+                    <div class="item1"><img src="./Circuit/ycircuit-wire.svg" alt=""></div>
                 </div>
-                <div class="tool-optics">
-                    <div class="first">
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                    </div>
-                    <div class="second">
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                    </div>
-                    <div class="third">
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                    </div>
-                    <div class="fourth">
-                        <div class="item1"><img src="" alt=""></div>
-                        <div class="item1"><img src="" alt=""></div>
-                    </div>
+                <div class="tool-optics" id="optics" style="display: none">
+                        <div class="item1"><img src="./Optics/xoptics-beam.svg" alt=""></div>
+                        <div class="item1"><img src="./Optics/xoptics-blocker.svg" alt=""></div>
+                        <div class="item1"><img src="./Optics/xoptics-curved-mirror.svg" alt=""></div>
+                        <div class="item1"><img src="./Optics/xoptics-lens.svg" alt=""></div>
+                        <div class="item1"><img src="./Optics/xoptics-mirror.svg" alt=""></div>
+                        <div class="vertical-line"></div>
+                        <div class="item1"><img src="./Optics/xoptics-observer.svg" alt=""></div>
+                        <div class="item1"><img src="./Optics/xoptics-plane-mirror.svg" alt=""></div>
+                        <div class="item1"><img src="./Optics/xoptics-point-source.svg" alt=""></div>
+                        <div class="item1"><img src="./Optics/xoptics-prism.svg" alt=""></div>
+                        <div class="vertical-line"></div>
+                        <div class="item1"><img src="./Optics/xoptics-ray.svg" alt=""></div>
+                        <div class="item1"><img src="./Optics/xoptics-surface.svg" alt=""></div>
                 </div>
-
+                <div class="tool-geometry" id="geometry" style="display: none">
+                    <div class="item1"><img src="./Geometry/zgeometry-free-point.svg" alt=""></div>
+                    <div class="item1"><img src="./Geometry/zgeometry-line-2-points.svg" alt=""></div>
+                    <div class="item1"><img src="./Geometry/zgeometry-vector-2-points.svg" alt=""></div>
+                    <div class="vertical-line"></div>
+                    <div class="item1"><img src="./Geometry/zgeometry-circle-2-points.svg" alt=""></div>
+                    <div class="item1"><img src="./Geometry/zgeometry-parabola-2-points.svg" alt=""></div>
+                    <div class="item1"><img src="./Geometry/zgeometry-create-point-locus.svg" alt=""></div>
+                    <div class="vertical-line"></div>
+                    <div class="item1"><img src="./Geometry/zgeometry-insert-shape-info.svg" alt=""></div>
+                    <div class="item1"><img src="./Geometry/zgeometry-insert-explicit-function.svg" alt=""></div>
+                </div>
             </div>
         </div>
 
@@ -186,7 +166,7 @@
             </ul>
         </div>
     </div>
-    <script src="index.js" async defer></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

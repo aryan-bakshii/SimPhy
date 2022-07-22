@@ -1,38 +1,81 @@
-var x = document.getElementById("slidecontainer-1");
-var y = document.getElementById("slidecontainer-2");
-x.style.display = "none"
-y.style.display = "none"
+document.getElementById("slidecontainer-1").style.display = "none";
+document.getElementById("slidecontainer-2").style.display = "none";
 
-window.addEventListener('load', function () { // NOT `DOMContentLoaded`
-    var draggable = new PlainDraggable(document.getElementById('sliders'));
-    draggable.containment = { left: 0, top: 0, right: '100%', height: '100%' };
-});
+// window.addEventListener('load', function () { // NOT `DOMContentLoaded`
+//     var draggable = new PlainDraggable(document.getElementById('sliders'));
+//     draggable.containment = { left: 0, top: 0, right: '100%', height: '100%' };
+// });
 
+function rigidbody() {
+    document.getElementById("geometry").style.display = "none";
+    document.getElementById("optics").style.display = "none";
+    document.getElementById("circuit").style.display = "none";
+
+    var x = document.getElementById("rigidbody");
+    if (x.style.display === "none") {
+        x.style.display = "flex";
+    } else{
+        x.style.display = "none";
+    }
+}
+
+function optics() {
+    document.getElementById("geometry").style.display = "none";
+    document.getElementById("rigidbody").style.display = "none";
+    document.getElementById("circuit").style.display = "none";
+
+    var x = document.getElementById("optics");
+    if (x.style.display === "none") {
+        x.style.display = "flex";
+    } else{
+        x.style.display = "none";
+    }
+}
+
+function geometry() {
+    document.getElementById("optics").style.display = "none";
+    document.getElementById("rigidbody").style.display = "none";
+    document.getElementById("circuit").style.display = "none";
+
+    var x = document.getElementById("geometry");
+    if (x.style.display === "none") {
+        x.style.display = "flex";
+    } else{
+        x.style.display = "none";
+    }
+}
+
+function circuit() {
+    document.getElementById("optics").style.display = "none";
+    document.getElementById("rigidbody").style.display = "none";
+    document.getElementById("geometry").style.display = "none";
+
+    var x = document.getElementById("circuit");
+    if (x.style.display === "none") {
+        x.style.display = "flex";
+    } else{
+        x.style.display = "none";
+    }
+}
 
 function magnify() {
     var x = document.getElementById("slidecontainer-1");
-    var y = document.getElementById("slidecontainer-2");
-    if (x.style.display === "none" && y.style.display === "none") {
+    document.getElementById("slidecontainer-2").style.display = "none";
+
+    if (x.style.display === "none") {
         x.style.display = "block";
-    }
-    else if (x.style.display === "none" && y.style.display === "block") {
-        x.style.display = "block";
-        y.style.display = "none";
-    } else {
+    } else{
         x.style.display = "none";
     }
 }
 
 function speed() {
-    var x = document.getElementById("slidecontainer-1");
     var y = document.getElementById("slidecontainer-2");
-    if (x.style.display === "none" && y.style.display === "none") {
+    document.getElementById("slidecontainer-1").style.display = "none";
+
+    if (y.style.display === "none") {
         y.style.display = "block";
-    }
-    else if (x.style.display === "block" && y.style.display === "none") {
-        y.style.display = "block";
-        x.style.display = "none";
-    } else {
+    } else{
         y.style.display = "none";
     }
 }
